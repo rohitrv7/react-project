@@ -1,0 +1,22 @@
+box-icon{
+    fill: #b1b0b0;
+    width: 20px;
+    margin-right: 10px;
+}
+.sidebar{
+    background: #171a20;
+}
+li{
+    transition: all .2s ease;
+}
+li:hover{
+    color: #0015ff;
+    border-radius: 15px;
+    /* background: #6d6d6d; */
+}
+li:hover, li:active{
+    color: #0015ff;
+}
+li:hover box-icon{
+    fill: #0015ff;
+}

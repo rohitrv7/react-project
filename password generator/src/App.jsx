@@ -1,4 +1,4 @@
-import { useCallback,useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
@@ -19,11 +19,11 @@ function App() {
     }
     setPassword(pass)
 
-  }, [length, numberAllow,characterAllow, setPassword] )
+  }, [length, numberAllow, characterAllow, setPassword] )
 
-   useEffect(()=>{
+  useEffect(() => {
     passgenerator()
-   }, [length, numberAllow, characterAllow, passgenerator])
+  }, [length, numberAllow, characterAllow,  passgenerator]) 
 
   return (
     <div className="w-full h-screen p-20 border-zinc-100 bg-black">
